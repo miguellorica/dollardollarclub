@@ -1,3 +1,13 @@
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
 html, body 
 {  
 	height: 100%;
@@ -44,6 +54,19 @@ html, body
   color: #cccccc;
 }
 
+.circle
+{
+  height: 150px;
+  width: 150px;
+  background-color: #ebebeb;
+  border-color: #999999;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 2em;
+}
+
 #topimgsectiontext
 {
   top: 35%;
@@ -62,6 +85,104 @@ html, body
   margin-right: auto;
 }
 
+section h1
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 18pt;
+  color: black;
+}
+
+section h2
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+#circlecontainer 
+{
+  display: inline-block;
+}
+
+#dollariconcontainer
+{
+  position: relative;
+  background-image: url("../img/dollar_inactive.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+}
+
+#dollariconcontainer:hover{
+  background-image: url("../img/dollar_active.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#dollariconcontainer h2
+{
+  padding-top: 10px;
+}
+
+#dropiconcontainer
+{
+  position: relative;
+  background-image: url("../img/drop_inactive.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+}
+
+#dropiconcontainer:hover
+{
+  position: relative;
+  background-image: url("../img/drop_active.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#hearticoncontainer
+{
+  position: relative;
+  background-image: url("../img/heart_inactive.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+}
+
+#hearticoncontainer:hover
+{
+  position: relative;
+  background-image: url("../img/heart_active.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.center
+{
+  position: relative;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
 *, *:before, *:after 
 {
   box-sizing: inherit;
@@ -75,11 +196,6 @@ li
 {
   list-style-type: none;
   margin-bottom: 5px;
-}
-
-section:last-child 
-{
-  padding-bottom: 20px;
 }
 
 input, button 
