@@ -191,6 +191,18 @@ section h2
   transform: translateY(-50%);
 }
 
+#mce-EMAIL
+{
+  border: none;
+}
+
+#mc-embedded-subscribe
+{
+  background-color: #666666;
+  color: white;
+  width: 100px;
+  border: none;
+}
 *, *:before, *:after 
 {
   box-sizing: inherit;
