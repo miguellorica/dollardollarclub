@@ -28,7 +28,6 @@ html, body
 	height: 55%;
 	width: 100%;
 	text-align: center;
-	background-color: #E04A50;
 	overflow: hidden;
 }
 
@@ -76,13 +75,13 @@ html, body
 
 #arrow
 {
-  position: relative;
+  position: absolute;
   width: 80px;
   height: 41px;
-  bottom: 2%;
+  bottom: .25%;
   z-index: 3;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50%;
+  transform: translateX(-40px);
 }
 
 section h1
@@ -97,6 +96,15 @@ section h2
   font-family: 'Lato', sans-serif;
   font-size: 10pt;
   color: black;
+}
+
+.bg_img {
+  background: 
+  linear-gradient(rgba(201,65, 69, 0.85),rgba(201,65, 69, 0.85)),
+  url("../img/bg.jpg");
+  ;
+  background-size: cover;
+  position: relative;
 }
 
 #circlecontainer 
