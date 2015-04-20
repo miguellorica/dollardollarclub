@@ -1,0 +1,51 @@
+#contact_top
+{
+	height: 20%;
+}
+
+.contact_bottom
+{
+	height: 800px;
+}
+
+.twitter-timeline
+{
+	float: right;
+}
+
+#contact_bottom_left
+{
+	width: 50%;
+	float: left;
+}
+#contact_bottom_right
+{
+	width: 50%;
+	float: right;
+}
+
+#facebook
+{
+	background-image: url("../img/icon_facebook.png");
+	width: 30px;
+	height: 30px;
+	margin-left:15px;
+	float: left;
+}
+
+#twitter
+{
+	background-image: url("../img/icon_twitter.png");
+	width: 30px;
+	height: 30px;
+	margin-left:15px;
+	float: left;
+}
+#instagram
+{
+	background-image: url("../img/icon_instagram.png");
+	width: 30px;
+	height: 30px;
+	margin-left:15px;
+	float: left;
+}
