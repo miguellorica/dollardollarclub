@@ -1,3 +1,10 @@
+html, body 
+{
+  margin: 0px;
+  height: 100%;
+}
+
+
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -8,12 +15,6 @@
   clear: both;
 }
 
-html, body 
-{  
-	height: 100%;
-	width: 100%;
-}
-
 .bodymain
 {
 	background: #F2F2F2;
@@ -21,7 +22,6 @@ html, body
 	width: 100%;
 	text-align: center;
 	position: relative;
-  overflow: hidden;
 }
 
 #topimgsection
@@ -106,7 +106,6 @@ section h2
   position: relative;
   width: 100%;
   text-align: center;
-  overflow: hidden;
 }
 
 #circlecontainer 
@@ -252,10 +251,7 @@ nav p
 footer 
 {
   height: 30px;
-  position: fixed;
   width: 100%;
-  bottom: 0px;
-  margin-top: 20px;
   padding: 0 20px;
   background-color: #333333;
   color: #cccccc;
@@ -266,4 +262,13 @@ footer p
   font-size: 12px;
   line-height: 30px;
   margin: 0;
+}
+
+@media (max-width: 768px)
+{
+  .circle
+  {
+    clear: left;
+    margin: 10px 2em;
+  }
 }
