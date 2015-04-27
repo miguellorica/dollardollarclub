@@ -1,11 +1,24 @@
-#contact_top
+html, body
 {
-	height: 20%;
+	width: 100%;
+	height: 1200px;
+	min-width: 685px;
 }
 
-.contact_bottom
+#contact_top
 {
-	height: 800px;
+	height: 15%;
+}
+
+#contact_top h1
+{
+	color: white;
+}
+
+#contact_middle
+{
+	width: 100%;
+	height: 30%;
 }
 
 .twitter-timeline
@@ -13,11 +26,16 @@
 	float: right;
 }
 
+#contact_bottom
+{
+
+}
 #contact_bottom_left
 {
 	width: 50%;
 	float: left;
 }
+
 #contact_bottom_right
 {
 	width: 50%;
@@ -41,6 +59,7 @@
 	margin-left:15px;
 	float: left;
 }
+
 #instagram
 {
 	background-image: url("../img/icon_instagram.png");
@@ -48,4 +67,9 @@
 	height: 30px;
 	margin-left:15px;
 	float: left;
+}
+
+#videoholder
+{
+	background-color: black;
 }
